@@ -64,7 +64,7 @@ app.use(cors());
 // Start the server
 
 const PORT = 10001; // Change to a different port number
-server.listen(PORT, () => {
+app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 //const PORT = process.env.PORT || 11000;
