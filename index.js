@@ -62,10 +62,15 @@ app.get('/example', (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 11000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+
+const PORT = 10001; // Change to a different port number
+server.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 });
+//const PORT = process.env.PORT || 11000;
+/*app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});*/
 
 
 //const mongoose = require("mongoose");
