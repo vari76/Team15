@@ -57,9 +57,9 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Define your routes
-app.get('/example', (req, res) => {
+/*app.get('/example', (req, res) => {
   res.json({ message: 'Hello from server!' });
-});
+});*/
 
 // Start the server
 
